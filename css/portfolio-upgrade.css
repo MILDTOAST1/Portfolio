@@ -1,0 +1,117 @@
+/* Portfolio merge + aesthetics */
+body.portfolio-page{
+  background:
+    radial-gradient(900px 520px at 15% 5%, rgba(37,99,235,.10), transparent 60%),
+    radial-gradient(800px 520px at 90% 0%, rgba(14,165,233,.10), transparent 55%),
+    linear-gradient(180deg, #ffffff, #f8fafc);
+}
+
+.portfolio.section{
+  padding-bottom: 10px;
+}
+
+.portfolio .portfolio-filters li{
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 700;
+}
+
+.portfolio .portfolio-filters li.filter-active{
+  background: linear-gradient(90deg, #2563eb, #0ea5e9);
+  color: #fff;
+}
+
+.portfolio-item .portfolio-info{
+  border-radius: 16px;
+}
+
+.portfolio-item img{
+  border-radius: 16px;
+}
+
+.expertise-strip{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  margin: 18px 0 6px 0;
+}
+.expertise-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.85);
+  border: 1px solid rgba(15,23,42,.10);
+  box-shadow: 0 10px 26px rgba(15,23,42,.06);
+  font-weight: 700;
+  color: #0f172a;
+}
+.expertise-chip i{
+  color: #2563eb;
+}
+
+#project-details{
+  padding-top: 30px;
+}
+
+.detail-card{
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid rgba(15,23,42,.10);
+  box-shadow: 0 14px 34px rgba(15,23,42,.06);
+  padding: 22px;
+  margin-bottom: 18px;
+}
+
+.detail-card h3{
+  margin-bottom: 6px;
+}
+.detail-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+  margin-bottom: 12px;
+}
+.badge-soft{
+  display:inline-flex;
+  align-items:center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(37,99,235,.10);
+  border: 1px solid rgba(37,99,235,.16);
+  color: #2563eb;
+  font-weight: 800;
+}
+.skill-pill{
+  display:inline-flex;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(15,23,42,.04);
+  border: 1px solid rgba(15,23,42,.08);
+  font-weight: 700;
+}
+
+.detail-grid img{
+  border-radius: 14px;
+  border: 1px solid rgba(15,23,42,.08);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.detail-grid a:hover img{
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(15,23,42,.12);
+}
+
+.detail-cta{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top: 14px;
+}
+
+.anchor-highlight{
+  outline: 3px solid rgba(37,99,235,.18);
+  transition: outline .4s ease;
+}
